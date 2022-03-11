@@ -1,0 +1,100 @@
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.header-top {
+  margin-top: 70px;
+}
+
+.navbar {
+  padding: 15px 10px;
+  background: #1e1f25;
+  //border: 1px solid red;
+  border-radius: 0;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+  margin: 40px 0;
+}
+
+h2{
+  color: white;
+}
+
+p {
+  color: grey;
+}
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+  //border: 1px solid green;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.mybutton {
+  //height: 30px;
+  background: rgba(36,108,249,0.30196078431372547 );
+  border:0;
+}
+.connect-button {
+  color: #ecf0f1;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.48px;
+  line-height: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.welcome {
+  height: 24px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.welcome-read {
+  height: 18px;
+  color: #757b8c;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #0a307e;
+}

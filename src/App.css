@@ -1,0 +1,185 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  font-family: 'Poppins', sans-serif;
+  background: #141518;
+}
+
+#sidebar {
+  margin: 26px 0 26px 26px;
+  min-width: 250px;
+  max-width: 250px;
+  background: #1e1f25;
+  color: #fff;
+  transition: all 0.3s;
+  border-radius: 16px;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  background: #1e1f25;
+  border-radius: 12px 12px 0px 0px;
+  border-bottom: 1px solid #282c38;
+  height: 76px;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+  padding-left: 20px;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+  text-decoration: none;
+  color: #757b8c;
+
+}
+
+#sidebar ul li a img {
+  margin-right: 10px;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  color: #fff;
+  background: #282c38;
+  margin-left: -20px;
+
+}
+
+#sidebar ul li.active > a img {
+  margin-left: 20px;
+}
+
+.isDisabled {
+  pointer-events: none;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #6d7fcc;
+}
+
+ul.CTAs a {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+a.download {
+  background: #fff;
+  color: #7386D5;
+}
+
+.pin-down {
+  position: absolute;
+  bottom: 0;
+}
+
+.sidebar-text {
+  color: #757b8c;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sidebar-text-bold {
+  color: #757b8c;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.sidebar-text-white {
+  font-weight: 600 !important;
+}
+
+.sidebar-logo {
+  height: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-top: 24px;
+  margin-left: 22px;
+}
+
+.sidebar-logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar-logo div {
+  /* Style for "DeFo" */
+  margin-left: 5px;
+  display: inline;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  /* Text style for "DeFo" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+  width: 100%;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #sidebarCollapse span {
+    display: none;
+  }
+}
+
+@media (max-height: 700px) {
+  .pin-down {
+    display: none;
+  }
+}
+

@@ -1,0 +1,226 @@
+.card1 {
+    width: 300px;
+    background-color: #1e1f25 !important;
+    color: #ECF0F1;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: small;
+}
+
+.mid-row {
+    height: 102px;
+}
+
+.alt-row {
+    background: #1f2430;
+}
+
+.alt-row-end {
+    border-radius: 10px;
+    height: 130px;
+}
+
+.row-top {
+    border-radius: 16px 16px 0px 0px;
+    background: #1e1f25;
+    border: 1px solid #1e1f25;
+}
+
+.list-group-item {
+    background: #1e1f25;
+    color: #ECF0F1;
+}
+
+p,
+h4 {
+    color: #ECF0F1;
+}
+
+.progress {
+    height: 0.5rem;
+    border-radius: 2.25rem;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+
+.progress-bar {
+    width: 100px;
+    color: black
+}
+
+.btn-warning {
+ 
+}
+
+disabled {
+    background: red;
+}
+
+.card-body {
+    padding: 1rem 1rem;
+}
+
+.btn-yellow {
+    color: black;
+    align-content: center;
+    background: #f6e58d;
+    border: 1px solid #f6e58d;
+    font-size: smaller;
+    font-weight: bold;
+    padding: 3px;
+    width: 230px;
+}
+
+.btn-warning {
+    width: 170px;
+}
+
+.under-card {
+    display: block;
+    background: transparent;
+    border: 0;
+}
+
+.over-card {
+    margin-top: 30px;
+    /* Style for "Frame 988" */
+    width: 300px;
+    height: 31px;
+    border-radius: 5px;
+    background-color: rgba(36, 108, 249, 0.3);
+}
+
+.price-increase-container {
+    display: inline-block;
+    width: 165px;
+    height: 21px;
+    border-radius: 4px;
+    border: 2px solid #ecf0f1;
+    background-color: #f6e58d;
+    vertical-align: middle;
+    margin-top: 5%;
+}
+
+.price-increase {
+    color: #1e1f25;
+    /* Text style for "10% price" */
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 8px;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+
+.card-text-top {
+    height: 17px;
+    color: #ecf0f1;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.48px;
+    line-height: normal;
+}
+
+.card-text-left {
+    height: 18px;
+    color: #ecf0f1;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.52px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.card-text-minted {
+    height: 14px;
+    opacity: 0.7;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.15px;
+    margin-top: 3%;
+}
+
+.card-text-box-container {
+    display: inline-block;
+    color: #ecf0f1;
+    font-size: 11px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.44px;
+    line-height: normal;
+    pointer-events: none;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(93, 101, 136, 0.2);
+    background-color: #282c38;
+}
+.card-text-box {
+    margin-top: 2%;
+}
+
+.card-text-sm-box {
+    color: #1e1f25;
+    font-size: 8px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 8px;
+}
+
+.node-title-container {
+    height: 22px;
+    display: inline;
+}
+
+.node-title {
+    width: 300px;
+    color: #ecf0f1;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.64px;
+    line-height: normal;
+    /* Text style for "light node" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.mint-button {
+    display: inline;
+    color: #ecf0f1;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.48px;
+    line-height: normal;
+    margin-top: 2%;
+}
+
+.nodes-owned-container {
+    width: 300px;
+}
+
+.nodes-owned {
+    /* Style for "0 of 10 no" */
+    color: #757b8c;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    /* Text style for "0 of 10 no" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
